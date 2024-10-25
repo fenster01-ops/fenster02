@@ -1,0 +1,64 @@
+.hero-text {
+     font-size: 20px;
+     font-family: "Open Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 300;
+     font-style: italic;
+     width: 800px;
+
+}
+
+.more__text {
+     font-family: "Open Sans", serif;
+     font-optical-sizing: auto;
+     font-weight: 500;
+     font-style: normal;
+     font-variation-settings:
+          "wdth" 100;
+     font-size: 20px;
+     width: 750px;
+
+}
+
+.header-text {
+     width: 780px;
+     font-family: "Open Sans", ;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     font-variation-settings:
+          "wdth" 100;
+     font-size: 20px;
+     margin-left: 20px;
+}
+
+.text {
+     font-family: "Open Sans", serif;
+     font-optical-sizing: auto;
+     font-weight: 800;
+     font-style: normal;
+     font-variation-settings:
+          "wdth" 100;
+          letter-spacing: -2px;
+}
+
+.program-text {
+     word-spacing: 30px;
+     color: rgb(7, 7, 87);
+     margin-top: -7px;
+}
+
+.red-text {
+     letter-spacing: 5px;
+}
+
+.blue-text {
+     font-family: "Open Sans", serif;
+     font-optical-sizing: auto;
+     font-weight: 800;
+     font-style: normal;
+     font-variation-settings:
+          "wdth" 100;
+          margin-top: -7px;
+          letter-spacing: -2px;
+}
