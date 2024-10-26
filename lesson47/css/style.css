@@ -1,0 +1,14 @@
+table,
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th,
+caption {
+    border: 1px solid #000;
+}
+
+.text {
+    text-align: center;
+}
