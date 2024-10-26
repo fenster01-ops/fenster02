@@ -51,7 +51,7 @@ body {
 
 .hero {
     padding: 120px 0 120px;
-    background: url(/img/hero-bg.jpg) 10% 50% / cover
+    background: url(./img/hero-bg.jpg) 10% 50% / cover
 }
 
 .hero-title {
