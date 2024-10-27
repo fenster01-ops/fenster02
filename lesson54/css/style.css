@@ -1,0 +1,28 @@
+body {
+    background: #000;
+}
+
+.text {
+    color: #fff;
+}
+
+.hero-inner {
+    position: relative;
+    background: #fff;
+    height: 85px;
+    width: 600px ;
+    border-radius: 9px;
+    top: 300px;
+    bottom: 100px;
+    left: 50%
+    }
+
+    .circle {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background: red;
+        border-radius: 100px;
+        left: 55%;
+        top: 165px;
+    }
