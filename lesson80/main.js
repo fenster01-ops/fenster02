@@ -6,13 +6,13 @@
      }
  }
 
- let = 10
+ let i = 10
 
  for (let i = 10; i >=1; i--) {
      console.log(i)
  }
 
- let i = 2
+ 
 
  while (i <= 12) {
      if (i % 2 === 0) {
@@ -22,7 +22,6 @@
      }
  }
 
- let i = 10
 
  while (i >=1) {
 
