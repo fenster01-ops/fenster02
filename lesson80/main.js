@@ -6,10 +6,10 @@
      }
  }
 
- let i = 10
+ let p = 10
 
- for (let i = 10; i >=1; i--) {
-     console.log(i)
+ for (let p = 10; p >=1; p--) {
+     console.log(p)
  }
 
  
@@ -23,8 +23,8 @@
  }
 
 
- while (i >=1) {
+ while (p >=1) {
 
-     console.log(i)
-     i--
+     console.log(p)
+     p--
  }
