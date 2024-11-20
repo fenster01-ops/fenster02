@@ -164,6 +164,7 @@ html {
     height: 232px;
     padding: 40px 81px 132px 40px;
     font-size: 20px;
+    width: 100%;
 }
 
 .program_discound-value {
@@ -171,9 +172,7 @@ html {
     line-height: 90%;
     font-size: 32px;
     margin: 5px 0px;
-    order: 1;
-    gap: 5;
-
+    gap: 5px;
 }
 
 .program_discound-value h1 {
@@ -213,6 +212,7 @@ html {
 
 .program_price {
     display: block;
+    width: 100%;
 }
 
 .program_price-value {
@@ -223,6 +223,7 @@ html {
     order: 1;
     gap: 5px;
     padding-left: 0;
+    width: 100%;
 }
 
 .program_price-text {
@@ -743,9 +744,9 @@ html {
     left: 1200px;
     position: absolute;
 }
+}
 
-
-.contact__title{
+.contact__title {
     font-family: Gabriola;
     font-size: 74px;
     line-height: 82%;
@@ -837,7 +838,6 @@ html {
 
 /* ================================== */
 /* ================================== */
-
 @media (max-width: 1200px) {
     .hero__img {
         margin: 0;
@@ -1271,46 +1271,5 @@ html {
         padding: 30px 10px 30px;
     }
 }
-
-
-
-  
-
-
-   
-  
-    
-  
-
-    
-
-  
- 
-     
-
-
-  
-      
-
- 
-
-    
-
-
-   
-  
-   
-
-
-
-   
-
-
-    
-    
-
-    
-    
-  
 
 }
