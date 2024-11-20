@@ -745,7 +745,7 @@ html {
 }
 
 
-.contact__title h1{
+.contact__title{
     font-family: Gabriola;
     font-size: 74px;
     line-height: 82%;
@@ -755,7 +755,6 @@ html {
 }
 
 .contact__title{
-
     font-family: Gabriola;
     font-size: 74px;
     line-height: 82%;
