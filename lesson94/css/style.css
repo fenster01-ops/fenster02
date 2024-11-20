@@ -1055,7 +1055,8 @@ html {
     /* ---------------- */
 
     .tab__controls {
-        gap: 10px;
+        display: flex;
+        flex-direction: column;
     }
 
     .tab__controls-link {
@@ -1072,6 +1073,10 @@ html {
 
     .accordion-content__text {
         max-width: none;
+    }
+    /* ---------------- */
+    .program__action{
+        flex-direction: column;
     }
 
     /* ------------- */
@@ -1231,6 +1236,7 @@ html {
 
     .program__action {
         grid-template: none;
+        width: 100%;
     }
 
     .program__price {
@@ -1255,6 +1261,11 @@ html {
         padding: 30px 10px 30px;
     }
 }
+   
+
+  
+      
+
  
 
     
