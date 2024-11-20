@@ -1158,6 +1158,7 @@ html {
 
     .tab__controls {
         justify-content: center;
+        flex-direction: column;
     }
 
     .accordion-list__item {
