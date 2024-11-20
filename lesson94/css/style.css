@@ -857,7 +857,7 @@ html {
         align-items: stretch;
     }
 
-    .tab-conrols {
+    .tab__conеrols {
         flex-wrap: wrap;
     }
 
@@ -1054,11 +1054,11 @@ html {
 
     /* ---------------- */
 
-    .tab-conrols {
+    .tab__controls {
         gap: 10px;
     }
 
-    .tab-conrols__link {
+    .tab__controls-link {
         padding: 6px 20px;
     }
 
@@ -1156,7 +1156,7 @@ html {
         justify-self: center;
     }
 
-    .tab-conrols {
+    .tab__controls {
         justify-content: center;
     }
 
