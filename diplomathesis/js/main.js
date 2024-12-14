@@ -94,9 +94,6 @@ const swiper = new Swiper('.testimonials__slider', {
           992: {
             slidesPerView: 2,
           },
-          343: {
-            slidesPerView: 1,
-          },
           318: {
             slidesPerView: 1,
           },
