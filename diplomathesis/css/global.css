@@ -1,0 +1,139 @@
+:root {
+    --general-text: #002033;
+    --general-bg: #ffffff;
+    --accent-text: #0076fe;
+    --accent-bg: #fc0c35;
+    --border-radius: 20px;
+    --title-text: #000000;
+}
+.body {
+    font-family: "Graphik", "Roboto", sans-serif;
+    line-height: 1.8;
+    color: var(--general-text);
+    background: var(--general-bg);
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 30px;
+    height: 100%;
+}
+
+.button4 {
+    background: var(--accent-text);
+    border-radius: 15px;
+    padding: 17px 30px 17px 30px;
+    margin: 0px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--general-bg);
+    font-family: TTForsTrial;
+    width: 155px;
+    height: 54px;
+}
+
+
+.btn__top {
+    display: flex;
+}
+
+.btn__top1 {
+    display: none;
+}
+
+.nav-button1 {
+    display: none;
+}
+
+.button {
+    margin-right: 10px;
+    font-family: Graphik;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 28px;
+    color: var(--general-bg);
+    text-align: center;
+    background: var(--accent-bg);
+    padding: 15px 20px 15px 20px;
+    border-radius: var(--border-radius);
+}
+
+.button2 {
+    color: var(--accent-text);
+    font-family: Graphik;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    border: 1px solid var(--accent-text);
+    border-radius: var(--border-radius);
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+}
+
+.age__top {
+    display: none;
+}
+
+
+
+.burger-icon {
+    display: none;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+}
+
+.burger-icon span,
+.burger-icon span::before,
+.burger-icon span::after {
+    display: block;
+    width: 30px;
+    height: 2px;
+    border-radius: 30px;
+    background: var(--accent-text);
+    transition: all .5s;
+}
+
+.burger-icon span {
+    position: relative;
+}
+
+.burger-icon span::before,
+.burger-icon span::after {
+    content: '';
+    position: absolute;
+}
+
+.burger-icon span::before {
+    top: -10px;
+}
+
+.burger-icon span::after {
+    bottom: -10px;
+}
+
+.body--opened-menu .burger-icon span {
+    background: transparent;
+}
+
+.body--opened-menu .burger-icon span::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.body--opened-menu .burger-icon span::after {
+    bottom: 0;
+    transform: rotate(-45deg);
+}
