@@ -1,0 +1,37 @@
+.header-top__inner {
+    margin-top: 17px;
+    margin-bottom: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.header__logo {
+    max-width: 146px;
+    gap: 64px;
+    margin-right: 64px;
+    z-index: 13;
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav__item {
+    font-family: Graphik;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.nav__link {}
+
+.nav__item2 {
+    color: var(--accent-text);
+    font-family: Graphik;
+    font-size: 18px;
+    line-height: 20px;
+}
