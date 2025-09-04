@@ -1,0 +1,40 @@
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 0 40px;
+    border-bottom: 1px solid #000;
+    flex-wrap: wrap;
+}
+
+.footer {
+    padding: 0 0 32px;
+}
+
+.footer__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.footer__text {
+    margin-top: 26px;
+    max-width: 295px;
+}
+
+.footer__block-nav {
+    display: flex;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+
+.footer__item {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.82;
+}
+
+.footer__item:last-child {
+    margin-bottom: 0;
+}

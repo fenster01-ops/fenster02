@@ -1,0 +1,254 @@
+@import url("/css/fonts.css");
+@import url("/css/header.css");
+@import url("/css/footer.css");
+
+:root {
+    --global-color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: auto 0;
+    padding: 0 0;
+    color: var(--global-color);
+    text-decoration: none;
+}
+
+.body {
+    font-family: "Raleway", "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: var(--global-color);
+    background: #fff;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 104px;
+    height: 100%;
+}
+
+.burger-icon {
+    display: none;
+    width: 20px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+}
+
+.burger-icon span {
+    position: relative;
+    display: block;
+    border-radius: 100px;
+    width: 20px;
+    height: 3px;
+    background: #000;
+}
+.burger-icon span::before {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-radius: 100px;
+    top: 7px;
+    width: 20px;
+    height: 3px;
+    background: #000;
+}
+.burger-icon span::after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-radius: 100px;
+    bottom: 7px;
+    width: 20px;
+    height: 3px;
+    background: #000;
+}
+
+.btn {
+    background: #ffce31;
+}
+
+/* ============================= */
+.features {
+    padding: 150px 0 0;
+}
+
+.features__text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__title {
+    display: inline-block;
+    max-width: 900px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.19;
+}
+
+.features__desc {
+    max-width: 493px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.64;
+}
+
+.features__block-img {
+    margin-top: 98px;
+    display: flex;
+    gap: 100px;
+}
+
+.features__img {
+    max-width: 770px;
+}
+
+.features__img>img {
+    width: 100%;
+}
+
+/* ============================= */
+
+.services {
+    padding: 200px 0 200px;
+}
+
+.services__title {
+    text-align: center;
+}
+
+.services__desc {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.64;
+    text-align: center;
+}
+
+.services__card {
+    margin-top: 100px;
+    max-width: 1640px;
+}
+
+.services__card>img {
+    width: 100%;
+}
+
+.services__list {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.services__item-title {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 1.8;
+    letter-spacing: -0.03em;
+}
+
+.services__item-desc {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.64;
+    text-align: center;
+}
+
+/* =================== */
+
+.download {
+    margin-bottom: 140px;
+    padding: 191px 0 200px;
+    background: #ffce31;
+}
+
+.download__title {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.download__block-img {
+    margin-top: 67px;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+/* ====================== */
+
+@media (max-width: 1816px) {
+    .header__form input {
+        padding-right: 145px;
+    }
+}
+
+@media (max-width: 1770px) {
+    .header__section {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .features__text {
+        flex-direction: column;
+    }
+
+    .features__desc {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 985px) {
+    .nav {
+        position: fixed;
+        padding: 100px 10px 20px;
+        inset: 0;
+        z-index: 10;
+        background: yellow;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body--opened-menu .nav {
+    }
+
+    .nav__item {
+        font-size: 26px;
+    }
+
+    .burger-icon {
+        display: flex;
+    }
+}
+
+@media (max-width: 638px) {
+    .footer__block-nav {
+        gap: 60px;
+    }
+
+    .section__img {
+        flex-direction: column;
+    }
+}
