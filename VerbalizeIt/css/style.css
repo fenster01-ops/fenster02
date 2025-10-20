@@ -1,6 +1,6 @@
-@import url("/css/fonts.css");
-@import url("/css/header.css");
-@import url("/css/footer.css");
+@import "fonts.css";
+@import "/header.css";
+@import "footer.css";
 
 :root {
     --global-color: #000;
@@ -251,4 +251,5 @@ p {
     .section__img {
         flex-direction: column;
     }
+
 }
